@@ -18,7 +18,7 @@ cancel=0
   }
   ngOnInit(): void {
     if(!this.navComp.isLogin){
-      // this.router.navigateByUrl('login');
+      this.router.navigateByUrl('login');
     }
   }
 

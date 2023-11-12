@@ -24,18 +24,12 @@
                 <li class="nav-item">
                     <a routerLink="home" *ngIf="isLogin" class="nav-link active">DashBoard</a>
                 </li>
-                <!-- <li class="nav-item">
-                    <fa-icon [icon]="faUser" *ngIf="!isLogin" class="nav-link icon collapsed dropdown-toggle"
-                        data-bs-toggle="collapse" data-bs-target="#mycoll" aria-controls="mycoll"></fa-icon>
-                    <div class="dropdown-menu collapse cl-m" aria-labelledby="navbarDropdown" id="mycoll">
-                        <div class="dropdown-item">
-                            <i class="fa-solid fa-user"></i>
-                            Profile</div>
-                        <button class="dropdown-item" href="#" (click)="logOut()">
-                            <i class="fa-solid fa-right-from-bracket"></i>
-                            Logout</button>
-                    </div>
-                </li> -->
+                <li class="nav-item d-md-none text-white" *ngIf="isLogin">
+                    <button class="dropdown-item "(click)="logOut()">
+                        <i class="fa-solid fa-right-from-bracket "></i>
+                        logout
+                    </button>
+                </li>
             </ul>
         </div>
     </div>

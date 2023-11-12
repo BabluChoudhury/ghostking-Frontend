@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { faUser } from '@fortawesome/free-regular-svg-icons'
 @Component({
   selector: 'app-navbar',
@@ -8,7 +9,11 @@ import { faUser } from '@fortawesome/free-regular-svg-icons'
 export class NavbarComponent implements OnInit {
   faUser = faUser
   isLogin = false;
-  constructor() { }
+  constructor(private router: Router) { }
+  logOut() {
+    this.isLogin = false;
+    this.router.navigateByUrl('')
+  }
   ngOnInit(): void {
   }
 

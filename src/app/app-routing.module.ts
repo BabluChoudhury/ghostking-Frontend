@@ -7,13 +7,14 @@ import { ServicesComponent } from './pages/services/services.component';
 import { LoginComponent } from './pages/login/login.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 
+
 const routes: Routes = [
   {path:'',component:HomeComponent},
   {path:'about',component:AboutComponent},
   {path:'contact',component:ContactComponent},
   {path:'services',component:ServicesComponent},
   {path:'login',component:LoginComponent},
-  {path:'home',component:DashboardComponent}
+  {path:'home',component:DashboardComponent},
 ];
 
 @NgModule({
