@@ -1,0 +1,43 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+        <a routerLink="" class="navbar-brand">Bablu</a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynav">
+            <ul class="navbar-nav ms-auto text-center">
+                <li class="nav-item">
+                    <a routerLink="" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a routerLink="about" class="nav-link active">About</a>
+                </li>
+                <li class="nav-item">
+                    <a routerLink="contact" class="nav-link active">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a routerLink="services" class="nav-link active">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a routerLink="login" *ngIf="!isLogin" class="nav-link active">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a routerLink="home" *ngIf="isLogin" class="nav-link active">DashBoard</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <fa-icon [icon]="faUser" *ngIf="!isLogin" class="nav-link icon collapsed dropdown-toggle"
+                        data-bs-toggle="collapse" data-bs-target="#mycoll" aria-controls="mycoll"></fa-icon>
+                    <div class="dropdown-menu collapse cl-m" aria-labelledby="navbarDropdown" id="mycoll">
+                        <div class="dropdown-item">
+                            <i class="fa-solid fa-user"></i>
+                            Profile</div>
+                        <button class="dropdown-item" href="#" (click)="logOut()">
+                            <i class="fa-solid fa-right-from-bracket"></i>
+                            Logout</button>
+                    </div>
+                </li> -->
+            </ul>
+        </div>
+    </div>
+</nav>
+<router-outlet></router-outlet>
