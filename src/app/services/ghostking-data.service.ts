@@ -7,15 +7,15 @@ export class GhostkingDataService {
 
   constructor(private http:HttpClient) { }
   signupUser(data:any){
-    return this.http.post("http://localhost:3000/signup",data);
+    return this.http.post("https://good-pumps-goat.cyclic.app/signup",data);
   }
   loginUser(data:any){
-    return this.http.post("http://localhost:3000/login",data)
+    return this.http.post("https://good-pumps-goat.cyclic.app/login",data)
   }
   sendMessage(data:any){
-    return this.http.post("http://localhost:3000/contact",data)
+    return this.http.post("https://good-pumps-goat.cyclic.app/contact",data)
   }
   sendService(data:any){
-    return this.http.post("http://localhost:3000/services",data)
+    return this.http.post("https://good-pumps-goat.cyclic.app/services",data)
   }
 }

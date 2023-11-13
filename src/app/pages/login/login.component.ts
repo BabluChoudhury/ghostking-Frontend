@@ -19,9 +19,11 @@ export class LoginComponent implements OnInit {
   createUser(data:any){
     this.ghostData.signupUser(data).subscribe((result)=>{
       console.log(result);
+      console.log(data);
     })
   }
   findUser(data:any){
+    console.log(data);
     this.ghostData.loginUser(data).subscribe((result)=>{
       console.log(result);
       this.navComponent.isLogin=true;
