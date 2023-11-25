@@ -13,8 +13,16 @@ export class NavbarComponent implements OnInit {
   logOut() {
     this.isLogin = false;
     this.router.navigateByUrl('')
+    localStorage.removeItem('token')
+    localStorage.removeItem('user')
   }
   ngOnInit(): void {
+    if(localStorage.getItem('token')){
+      this.isLogin=true
+    }
+    else{
+      this.isLogin=false
+    }
   }
 
 }
