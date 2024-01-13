@@ -1,0 +1,9 @@
+.box{
+    background: url("../../../assets/Images/neon-abstract.jpg")no-repeat center/ cover;
+    height: 300px;
+}
+.card{
+    min-height: 600px;
+    margin-top: -20vh;
+    background: linear-gradient(to bottom, #29235a, #342f6b, #24243e); 
+}

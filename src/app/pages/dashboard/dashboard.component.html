@@ -1,0 +1,137 @@
+<!-- Sidebar -->
+<div class="container-fluid">
+    <div class="row">
+        <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block bg-secondary sidebar d-none">
+            <div class="position-sticky">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <div class="text-center">
+                            <img src="../../../assets/Images/img_avatar.png" class="img-fluid img-round">
+                        </div>
+                        <div class="text-center text-white">{{name}}</div>
+                        <button class="dropdown-item text-center text-white mt-2"(click)="logOut()" data-bs-toggle="tooltip"data-bs-placement="top" data-bs-title="Logout">
+                            <i class="fa-solid fa-right-from-bracket"></i>
+                        </button>
+                        
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white">
+                            Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white">
+                            Orders
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white">
+                            Settings
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white">
+                            Profile
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white">
+                            Message
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">
+                            <div class="my-auto">
+                                <button class="dropdown-item text-white" href="#" (click)="logOut()">
+                                    <i class="fa-solid fa-right-from-bracket"></i>
+                                    logout
+                                </button>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+               
+                <!-- <div class="my-auto mb-2 ms-5">
+                    <button class="dropdown-item " href="#" (click)="logOut()">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                        logout
+                    </button>
+                </div> -->
+            </div>
+        </nav>
+        <div class="container-fluid bg-blk text-white d-md-none">
+            <div class="row justify-content-around pb-4">
+                <div class="col">
+                    <button class="dropdown-item">
+                        <i class="fa-brands fa-elementor icon"></i>
+                    </button>
+                </div>
+                <div class="col">
+                    <button class="dropdown-item">
+                        <i class="fa-solid fa-cart-plus icon"></i>
+                    </button>
+                </div>
+                <div class="col">
+                    <button class="dropdown-item">
+                        <i class="fa-solid fa-gear icon"></i>
+                    </button>
+                </div>
+                <div class="col">
+                    <button class="dropdown-item">
+                        <i class="fa-solid fa-user icon"></i>
+                    </button>
+                </div>
+                <div class="col">
+                    <button class="dropdown-item">
+                        <i class="fa-solid fa-message icon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Content -->
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+            <div class="container mt-3 ">
+                <div class="row justify-content-around">
+                    <div class="col-md-11">
+                        <div class="row py-5">
+                            <div class="col-md-4 my-4">
+                                <div class="card bg-vilote">
+                                    <div class="row justify-content-center">
+                                        <div class="circle bg-vilote d-flex justify-content-center">
+                                            <i class="fa-solid fa-message icon"></i>
+                                        </div>
+                                    </div>
+                                    <div class="text-center mt-1">Total Message</div>
+                                    <div class="text-center mt-1 num">{{msg}}</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 my-4">
+                                <div class="card bg-green">
+                                    <div class="row justify-content-center">
+                                        <div class="circle bg-green d-flex justify-content-center">
+                                            <i class="fa-solid fa-screwdriver-wrench icon"></i>
+                                        </div>
+                                    </div>
+                                    <div class="text-center mt-1">Total Services</div>
+                                    <div class="text-center mt-1 num">{{service}}</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 my-4">
+                                <div class="card bg-red">
+                                    <div class="row justify-content-center">
+                                        <div class="circle bg-red d-flex justify-content-center">
+                                            <i class="fa-solid fa-user-large-slash icon"></i>
+                                        </div>
+                                    </div>
+                                    <div class="text-center mt-1">Total Cancel</div>
+                                    <div class="text-center mt-1 num">{{cancel}}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>

@@ -1,0 +1,48 @@
+.img-round {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bs-primary);
+}
+
+.nav {
+    /* height: 83vh; */
+    min-height: 83vh;
+}
+
+.card{
+    height: 150px;
+}
+.bg-vilote{
+    background-color: blueviolet;
+    color: white;
+}
+.bg-green{
+    background-color: rgb(30, 104, 30);
+    color: white;
+}
+.bg-red{
+    background-color: rgb(241, 89, 7);
+    color: white;
+}
+.bg-blk{
+    background-color: rgba(16, 1, 1, 0.687);
+}
+.circle{
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    margin-top: -40px;
+    /* border: 2px solid gray; */
+    border: 2px solid rgba(181, 172, 192, 0.671);
+}
+.icon{
+    margin-top:23px;
+    font-size: 40px;
+}
+.num{
+    font-size: 30px;
+}

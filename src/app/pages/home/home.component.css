@@ -1,0 +1,14 @@
+.card-bg {
+    background: url("https://images.unsplash.com/photo-1448067686092-1f4f2070baae?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat center/ cover;
+    /* background: url("../../../assets/Images/bg-blur-image.jpg") no-repeat center/ cover; */
+    min-height: 600px;
+    border-radius: 7px;
+}
+
+h3 {
+    font-size: 3em;
+}
+
+h4 {
+    font-size: 3em;
+}
