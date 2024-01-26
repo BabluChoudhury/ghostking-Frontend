@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CookieComponent } from './cookie.component';
+import { ShadowsofAIComponent } from './shadowsof-ai.component';
 
-describe('CookieComponent', () => {
-  let component: CookieComponent;
-  let fixture: ComponentFixture<CookieComponent>;
+describe('ShadowsofAIComponent', () => {
+  let component: ShadowsofAIComponent;
+  let fixture: ComponentFixture<ShadowsofAIComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CookieComponent ]
+      declarations: [ ShadowsofAIComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(CookieComponent);
+    fixture = TestBed.createComponent(ShadowsofAIComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -2,9 +2,9 @@
     min-height: 82.5vh;
   }
   li{
-    color: rgb(52, 21, 105);
+    color: rgb(105, 21, 90);
     font-weight: bold;
   }
-  h2,h3{
-    color: darkcyan;
+h3{
+    color: rgb(0, 139, 88);
   }
