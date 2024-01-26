@@ -10,6 +10,7 @@ import { LocalhostComponent } from './pages/blogs/localhost/localhost.component'
 import { JavascriptComponent } from './pages/blogs/javascript/javascript.component';
 import { JcookieComponent } from './pages/blogs/jcookie/jcookie.component';
 import { ShadowsofAIComponent } from './pages/blogs/shadowsof-ai/shadowsof-ai.component';
+import { ProgrammingLanguageComponent } from './pages/blogs/programming-language/programming-language.component';
 
 
 
@@ -23,7 +24,8 @@ const routes: Routes = [
   {path:'privacy-policy',component:PrivacyPolicyComponent},
   {path:'blog/javascript',component:JavascriptComponent},
   {path:'blog/jcookie',component:JcookieComponent},
-  {path:'blog/shadowsofai',component:ShadowsofAIComponent}
+  {path:'blog/shadowsofai',component:ShadowsofAIComponent},
+  {path:'blog/programminglanguage',component:ProgrammingLanguageComponent}
 
 ];
 

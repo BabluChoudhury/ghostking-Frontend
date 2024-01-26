@@ -17,6 +17,7 @@ import { LocalhostComponent } from './pages/blogs/localhost/localhost.component'
 import { JavascriptComponent } from './pages/blogs/javascript/javascript.component';
 import { JcookieComponent } from './pages/blogs/jcookie/jcookie.component';
 import { ShadowsofAIComponent } from './pages/blogs/shadowsof-ai/shadowsof-ai.component';
+import { ProgrammingLanguageComponent } from './pages/blogs/programming-language/programming-language.component';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import { ShadowsofAIComponent } from './pages/blogs/shadowsof-ai/shadowsof-ai.co
     LocalhostComponent,
     JavascriptComponent,
     JcookieComponent,
-    ShadowsofAIComponent
+    ShadowsofAIComponent,
+    ProgrammingLanguageComponent
   ],
   imports: [
     BrowserModule,
