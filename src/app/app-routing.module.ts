@@ -11,6 +11,8 @@ import { JavascriptComponent } from './pages/blogs/javascript/javascript.compone
 import { JcookieComponent } from './pages/blogs/jcookie/jcookie.component';
 import { ShadowsofAIComponent } from './pages/blogs/shadowsof-ai/shadowsof-ai.component';
 import { ProgrammingLanguageComponent } from './pages/blogs/programming-language/programming-language.component';
+import { OperatingSystemComponent } from './pages/blogs/operating-system/operating-system.component';
+import { PythonAiMlComponent } from './pages/blogs/python-ai-ml/python-ai-ml.component';
 
 
 
@@ -25,7 +27,9 @@ const routes: Routes = [
   {path:'blog/javascript',component:JavascriptComponent},
   {path:'blog/jcookie',component:JcookieComponent},
   {path:'blog/shadowsofai',component:ShadowsofAIComponent},
-  {path:'blog/programminglanguage',component:ProgrammingLanguageComponent}
+  {path:'blog/programminglanguage',component:ProgrammingLanguageComponent},
+  {path:'blog/useofcandc++',component:OperatingSystemComponent},
+  {path:'blog/python-ai-ml',component:PythonAiMlComponent}
 
 ];
 

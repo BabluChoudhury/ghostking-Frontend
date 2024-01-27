@@ -18,6 +18,8 @@ import { JavascriptComponent } from './pages/blogs/javascript/javascript.compone
 import { JcookieComponent } from './pages/blogs/jcookie/jcookie.component';
 import { ShadowsofAIComponent } from './pages/blogs/shadowsof-ai/shadowsof-ai.component';
 import { ProgrammingLanguageComponent } from './pages/blogs/programming-language/programming-language.component';
+import { OperatingSystemComponent } from './pages/blogs/operating-system/operating-system.component';
+import { PythonAiMlComponent } from './pages/blogs/python-ai-ml/python-ai-ml.component';
 
 
 @NgModule({
@@ -35,7 +37,9 @@ import { ProgrammingLanguageComponent } from './pages/blogs/programming-language
     JavascriptComponent,
     JcookieComponent,
     ShadowsofAIComponent,
-    ProgrammingLanguageComponent
+    ProgrammingLanguageComponent,
+    OperatingSystemComponent,
+    PythonAiMlComponent
   ],
   imports: [
     BrowserModule,
